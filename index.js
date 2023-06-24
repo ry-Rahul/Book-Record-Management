@@ -13,7 +13,7 @@ app.get("/", (req,res)=>{
             message: "Connection successful established",
         }
         );
-});
+});     
 
 app.use(express.json());
 
